@@ -1,5 +1,5 @@
 import React from 'react';
-import { PRODUCTS } from '../../constants/constants';
+import { PRODUCTS } from '../../../constants/constants';
 import styles from './nameOfBrand.module.css'
 
 export const NameOfBrand = () => {

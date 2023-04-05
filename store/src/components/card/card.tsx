@@ -1,6 +1,7 @@
 import React from 'react';
-import { ImageProduct } from '../imageProduct/imageProduct';
-import { NameOfBrand } from '../nameOfBrand/nameOfBrand';
+import { ImageProduct } from './imageProduct/imageProduct';
+import { NameOfBrand } from './nameOfBrand/nameOfBrand';
+import { Information } from './information/information';
 import styles from './card.module.css';
 
 export const Card = () => {
@@ -8,6 +9,7 @@ export const Card = () => {
       <div className={styles.card}>
         <NameOfBrand />
         <ImageProduct />
+        <Information />
       </div>
     )
 }
