@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card } from './components/card/card';
-import { ImageProduct } from './components/imageProduct/imageProduct';
 
 function App() {
   return (
