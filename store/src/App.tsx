@@ -1,11 +1,11 @@
 import React from 'react';
-import { PRODUCTS } from './constants/constants';
-import { ImageProduct } from './components/card/imageProduct';
+import { Card } from './components/card/card';
+import { ImageProduct } from './components/imageProduct/imageProduct';
 
 function App() {
   return (
     <div className="App">
-      <ImageProduct />
+      <Card />
     </div>
   );
 }
