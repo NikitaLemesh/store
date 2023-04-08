@@ -1,10 +1,8 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export const ButtonDetails = () => {
-  const showDetails = () => {
-    console.log('ggg')
-  }
   return (
-    <button onClick={showDetails}>Details</button>
+    <button><Link to='/details'>Details</Link></button>
   )
 }

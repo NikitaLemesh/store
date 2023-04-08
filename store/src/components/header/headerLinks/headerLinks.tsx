@@ -6,9 +6,7 @@ export const HeaderLinks = () => {
     <>
     <header>
       <ul>
-        <li><Link to='/'>Home</Link></li>
         <li><Link to='/cart'>Cart</Link></li>
-        <li><Link to='/details'>Details</Link></li>
       </ul>
     </header>
     <Outlet />
