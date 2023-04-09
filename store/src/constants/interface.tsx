@@ -5,5 +5,24 @@ export interface Item {
   imageFirst: string,
   imageSecond: string,
   imageThird: string,
-  info: [{stock: number}, {type: string}, { rating: number}, {price: number}]
+  stock: number,
+  type: string,
+  rating: number,
+  price: number,
+}
+
+export interface ICard {
+  card: Item
+}
+
+export interface NameImage {
+  name: string,
+  image?: string
+}
+
+export interface Info {
+  stock?: number,
+  type?: string,
+  rating?: number,
+  price?: number,
 }
