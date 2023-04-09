@@ -4,8 +4,8 @@ import style from './logo.module.css';
 
 export const Logo = () => {
   return (
-    <div>
-      <img src="./images/logo.jpg" alt="logo" className={style.img__logo}/>
+    <div className={style.logo__container}>
+      <img src="./images/logo.svg" alt="logo" className={style.img__logo}/>
       <h1><Link to='/'>Online Store</Link></h1>
     </div>
   )

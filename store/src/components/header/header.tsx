@@ -1,13 +1,15 @@
 import React from 'react';
 import style from './header.module.css';
 import { Logo } from './logo/Logo';
-import { HeaderLinks } from './headerLinks/HeaderLinks';
+import { CartLogo } from './cartLogo/CartLogo';
+import { CartTotal } from './cartTotal/CartTotal';
 
 export const Header = () => {
   return (
-    <div className={style.header}>
-      <Logo/>
-      <HeaderLinks/>
-    </div>
+    <header className={style.header}>
+      <Logo />
+      <CartTotal />
+      <CartLogo />
+    </header>
   )
 }
