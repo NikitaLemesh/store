@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from './components/header/header';
+import { Header } from './components/header/Header';
 import { Routes, Route } from 'react-router-dom';
 import style from './App.module.css'
 import { ManePage } from './pages/manePage/manePage';

@@ -1,13 +1,13 @@
 import React from 'react';
-import { PRODUCTS } from '../../../constants/constants';
+import { NameImage } from '../../../constants/interface';
 import styles from './imageProduct.module.css';
 
-export const ImageProduct = () => {
+export const ImageProduct = (props: NameImage) => {
   return (
     <img
       className={styles.image}
-      src={PRODUCTS[0].imageFirst}
-      alt='nike'
+      src={props.image}
+      alt={props.name}
     />
   )
 }

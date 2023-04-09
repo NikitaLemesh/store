@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './header.module.css';
-import { Logo } from './logo/logo';
-import { HeaderLinks } from './headerLinks/headerLinks';
+import { Logo } from './logo/Logo';
+import { HeaderLinks } from './headerLinks/HeaderLinks';
 
 export const Header = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import { Card } from "../../components/card/card";
+import { ItemsContainer } from "./itemsContainer/ItemsContainer";
 
 export const ManePage = () => {
   return (
-    <Card/>
+    <ItemsContainer />
   )
 }

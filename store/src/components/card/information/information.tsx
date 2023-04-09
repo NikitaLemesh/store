@@ -1,15 +1,18 @@
 import  React from "react";
-import { PRODUCTS } from "../../../constants/constants";
+import { Stock } from "./stock/Stock";
+import { Type } from "./type/Type";
+import { Price } from "./price/Price";
+import { Rating } from "./rating/Rating";
+import { Info } from "../../../constants/interface";
 
-export const Information = () => {
-  const information: [{stock: number}, {type: string}, { rating: number}, {price: number}] = PRODUCTS[0].info;
+export const Information = (props: Info) => {
+
   return (
     <ul>
-      { information?.map((item): React.ReactNode => {
-        const item2 = Object.entries(item).flat();
-          return  <li>{`${item2[0]}: ${item2[1]}`}</li>
-        }) 
-      }
+      <Type type={props.type} />
+      <Price price={props.price} />
+      <Rating rating={props.rating} />
+      <Stock stock={props.stock} />
     </ul>
   )
 }
