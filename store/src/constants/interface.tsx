@@ -31,7 +31,10 @@ export interface Info {
   price?: number,
 }
 
-
 export interface IdDetailsPage {
   id: number
 }
+
+export type IDetailsContainer = {
+  children: React.ReactNode;
+} 
