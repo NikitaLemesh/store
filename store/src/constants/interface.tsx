@@ -1,5 +1,5 @@
 export interface Item {
-  id: number,
+  id: ID,
   brand: string,
   description: string,
   imageFirst: string,
@@ -11,13 +11,17 @@ export interface Item {
   price: number,
 }
 
+type ID = string | number;
+
 export interface ICard {
   card: Item
 }
 
-export interface NameImage {
+export interface NameImages {
   name: string,
-  image?: string
+  imageFirst?: string
+  imageSecond?: string,
+  imageThird?: string,
 }
 
 export interface Info {
@@ -25,4 +29,9 @@ export interface Info {
   type?: string,
   rating?: number,
   price?: number,
+}
+
+
+export interface IdDetailsPage {
+  id: number
 }

@@ -1,4 +1,4 @@
-import { Item } from "./interface"
+import { Item, IdDetailsPage } from "./interface"
 
 export const PRODUCTS: Item[] = [
   {
@@ -50,3 +50,7 @@ export const PRODUCTS: Item[] = [
     price: 89
   }
 ]
+
+export const idDetailsPage: IdDetailsPage = {
+  id: 0
+}

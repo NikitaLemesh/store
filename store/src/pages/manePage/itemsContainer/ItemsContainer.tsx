@@ -6,7 +6,7 @@ export const ItemsContainer = () => {
   return (
     <ul>
         {PRODUCTS.map((item): React.ReactNode => {
-          return <li><Card card={item}/></li>
+          return <Card card={item} />
         })}
     </ul>
   )

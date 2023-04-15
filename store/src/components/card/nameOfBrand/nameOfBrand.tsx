@@ -1,8 +1,8 @@
 import React from 'react';
-import { NameImage } from '../../../constants/interface';
+import { NameImages } from '../../../constants/interface';
 import styles from './nameOfBrand.module.css'
 
-export const NameOfBrand = (props: NameImage) => {
+export const NameOfBrand = (props: NameImages) => {
   return (
     <h2 className={styles.nameOfBrand}>{props.name}</h2>
   )
