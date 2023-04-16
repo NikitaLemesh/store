@@ -5,7 +5,10 @@ import { Info } from '../../../constants/interface';
 export const InfoContainer  = (props: Info) => {
   return (
     <div>
-      <Description />
+      <Description description={props.description} value={'Description:'} />
+      <Description rating={props.rating} value={'Rating:'} />
+      <Description stock={props.stock} value={'Stock:'} />
+      <Description type={props.type} value={'Type:'} />
     </div>
   )
 }

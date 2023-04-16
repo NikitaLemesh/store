@@ -30,6 +30,7 @@ export interface Info {
   rating?: number,
   price?: number,
   description?: string,
+  value?: string
 }
 
 export interface IdDetailsPage {
