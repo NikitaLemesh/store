@@ -29,12 +29,13 @@ export interface Info {
   type?: string,
   rating?: number,
   price?: number,
+  description?: string,
 }
 
 export interface IdDetailsPage {
   id: number
 }
 
-export type IDetailsContainer = {
+export type IChildren = {
   children: React.ReactNode;
 } 
