@@ -9,6 +9,7 @@ export interface Item {
   type: string,
   rating: number,
   price: number,
+  sex: string,
 }
 
 type ID = string | number;

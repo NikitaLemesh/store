@@ -2,7 +2,7 @@ import React from 'react';
 import { Page } from './pages/page';
 import { Routes, Route } from 'react-router-dom';
 import style from './App.module.css'
-import { ManePage } from './pages/manePage/ManePage';
+import { MainePage } from './pages/mainePage/MainePage';
 import { DetailsPage } from './pages/detailsPage/DetailsPage';
 import { CartPage } from './pages/cartPage/CartPage';
 
@@ -11,7 +11,7 @@ function App() {
     <div className={style.App}>
       <Routes>
         <Route path='/' element={<Page />}>
-          <Route index element={<ManePage />}/>
+          <Route index element={<MainePage />}/>
           <Route path='/cart' element={<CartPage />}/>
           <Route path='/details' element={<DetailsPage />}/>
           <Route path='*' />

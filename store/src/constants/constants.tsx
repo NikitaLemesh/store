@@ -9,9 +9,10 @@ export const PRODUCTS: Item[] = [
     imageSecond: './images/nike1.1.jpg',
     imageThird: './images/nike1.2.jpg',
     stock: 62 ,
-    type: 'shoes',
-    rating:  5.5,
-    price: 60
+    type: 'sport',
+    rating: 5.5,
+    price: 60,
+    sex: 'male'
   },
   {
     id: 1,
@@ -21,9 +22,10 @@ export const PRODUCTS: Item[] = [
     imageSecond: './images/nike2.1.jpg',
     imageThird: './images/nike2.2.jpg',
     stock: 31,
-    type: 'shoes',
-    rating:  6.5,
-    price: 81
+    type: 'sport',
+    rating: 6.5,
+    price: 81,
+    sex: 'male'
   },
   {
     id: 2,
@@ -33,9 +35,10 @@ export const PRODUCTS: Item[] = [
     imageSecond: './images/nb1.1.jpg',
     imageThird: './images/nb1.2.jpg',
     stock: 46,
-    type: 'shoes',
-    rating:  9.5,
-    price: 95
+    type: 'sport',
+    rating: 9.5,
+    price: 95,
+    sex: 'male'
   },
   {
     id: 3,
@@ -45,9 +48,10 @@ export const PRODUCTS: Item[] = [
     imageSecond: './images/nb2.1.jpg',
     imageThird: './images/nb2.2.jpg',
     stock: 28,
-    type: 'shoes',
-    rating:  9,
-    price: 89
+    type: 'sport',
+    rating: 9,
+    price: 89,
+    sex: 'male'
   },
   {
     id: 4,
@@ -57,9 +61,10 @@ export const PRODUCTS: Item[] = [
     imageSecond: './images/cn1.1.jpg',
     imageThird: './images/cn1.2.jpg',
     stock: 42,
-    type: 'shoes',
-    rating:  7.5,
-    price: 72
+    type: 'sport',
+    rating: 7.5,
+    price: 72,
+    sex: 'male'
   },
   {
     id: 5,
@@ -69,9 +74,10 @@ export const PRODUCTS: Item[] = [
     imageSecond: './images/cn2.1.jpg',
     imageThird: './images/cn2.2.jpg',
     stock: 31,
-    type: 'shoes',
-    rating:  8,
-    price: 63
+    type: 'sport',
+    rating: 8,
+    price: 63,
+    sex: 'male'
   },
   {
     id: 6,
@@ -81,9 +87,10 @@ export const PRODUCTS: Item[] = [
     imageSecond: './images/re1.1.jpg',
     imageThird: './images/re1.2.jpg',
     stock: 25,
-    type: 'shoes',
-    rating:  7,
-    price: 59
+    type: 'sport',
+    rating: 7,
+    price: 59,
+    sex: 'male'
   },
   {
     id: 7,
@@ -93,10 +100,258 @@ export const PRODUCTS: Item[] = [
     imageSecond: './images/re2.1.jpg',
     imageThird: './images/re2.2.jpg',
     stock: 27,
-    type: 'shoes',
-    rating:  7,
-    price: 73
-  }
+    type: 'sport',
+    rating: 7,
+    price: 73,
+    sex: 'male'
+  },
+  {
+    id: 8,
+    brand: 'NEW BALANCE',
+    description: 'NEW BALANCE SNEAKERS WL574ZSE Pink',
+    imageFirst: './images/nb3.jpg',
+    imageSecond: './images/nb3.1.jpg',
+    imageThird: './images/nb3.2.jpg',
+    stock: 20,
+    type: 'sport',
+    rating: 8,
+    price: 85,
+    sex: 'female'
+  },
+  {
+    id: 9,
+    brand: 'NEW BALANCE',
+    description: 'NEW BALANCE SNEAKERS BBW550PA Beige',
+    imageFirst: './images/nb4.jpg',
+    imageSecond: './images/nb4.1.jpg',
+    imageThird: './images/nb4.2.jpg',
+    stock: 18,
+    type: 'sport',
+    rating: 7.5,
+    price: 75,
+    sex: 'female'
+  },
+  {
+    id: 10,
+    brand: 'PUMA',
+    description: 'PUMA SNEAKERS Mayze Ut Pop Wns 391085 03 Spring Lavender',
+    imageFirst: './images/puma1.jpg',
+    imageSecond: './images/puma1.1.jpg',
+    imageThird: './images/puma1.2.jpg',
+    stock: 26,
+    type: 'sport',
+    rating: 7,
+    price: 67,
+    sex: 'female'
+  },
+  {
+    id: 11,
+    brand: 'PUMA',
+    description: 'PUMA SNEAKERS Vikky V3 Glitz Fs Jr 389678 02 Puma White/Pink/Silver',
+    imageFirst: './images/puma2.jpg',
+    imageSecond: './images/puma2.1.jpg',
+    imageThird: './images/puma2.2.jpg',
+    stock: 17,
+    type: 'sport',
+    rating: 6,
+    price: 48,
+    sex: 'female'
+  },
+  {
+    id: 12,
+    brand: 'CALVIN KLEIN',
+    description: 'CALVIN KLEIN BOOTS Mid Cut Boot HM0HM01010 Ck Black BEH',
+    imageFirst: './images/ck1.jpg',
+    imageSecond: './images/ck1.1.jpg',
+    imageThird: './images/ck1.2.jpg',
+    stock: 12,
+    type: 'boots',
+    rating: 9,
+    price: 112,
+    sex: 'male'
+  },
+  {
+    id: 13,
+    brand: 'TIMBERLAND',
+    description: 'TIMBERLAND BOOTS Newmarket II Power Toe Chukka TB0A44BV015 Black Nubuck',
+    imageFirst: './images/tim1.jpg',
+    imageSecond: './images/tim1.1.jpg',
+    imageThird: './images/tim1.2.jpg',
+    stock: 26,
+    type: 'boots',
+    rating: 8,
+    price: 92,
+    sex: 'male'
+  },
+  {
+    id: 14,
+    brand: 'TIMBERLAND',
+    description: 'TIMBERLAND BOOTS Cityroam Chukka TB0A1TFB3581 Md Brown Full Grain',
+    imageFirst: './images/tim2.jpg',
+    imageSecond: './images/tim2.1.jpg',
+    imageThird: './images/tim2.2.jpg',
+    stock: 16,
+    type: 'boots',
+    rating: 8.5,
+    price: 106,
+    sex: 'male'
+  },
+  {
+    id: 15,
+    brand: 'WRANGLER',
+    description: 'WRANGLER BOOTS Boogie Zip WM22101A Anthracite 096',
+    imageFirst: './images/wr1.jpg',
+    imageSecond: './images/wr1.1.jpg',
+    imageThird: './images/wr1.2.jpg',
+    stock: 28,
+    type: 'boots',
+    rating: 7.5,
+    price: 84,
+    sex: 'male'
+  },
+  {
+    id: 16,
+    brand: 'WRANGLER',
+    description: 'WRANGLER BOOTS Mitchell Boot WM22010A Black 062',
+    imageFirst: './images/wr2.jpg',
+    imageSecond: './images/wr2.1.jpg',
+    imageThird: './images/wr2.2.jpg',
+    stock: 42,
+    type: 'boots',
+    rating: 6.5,
+    price: 46,
+    sex: 'male'
+  },
+  {
+    id: 17,
+    brand: 'JENNY FAIRY',
+    description: 'JENNY FAIRY BALLERINAS LCS010822-01 Beige',
+    imageFirst: './images/jf1.jpg',
+    imageSecond: './images/jf1.1.jpg',
+    imageThird: './images/jf1.2.jpg',
+    stock: 68,
+    type: 'ballerinas',
+    rating: 7,
+    price: 26,
+    sex: 'female'
+  },
+  {
+    id: 18,
+    brand: 'R. POLANSKI',
+    description: 'BALLERINAS BY R. POLANSKI 0727 Gold',
+    imageFirst: './images/rp1.jpg',
+    imageSecond: './images/rp1.1.jpg',
+    imageThird: './images/rp1.2.jpg',
+    stock: 52,
+    type: 'ballerinas',
+    rating: 6.5,
+    price: 31,
+    sex: 'female'
+  },
+  {
+    id: 19,
+    brand: 'TAMARIS',
+    description: 'TAMARIS BALLERINAS 1-22113-20 Light Blue 880',
+    imageFirst: './images/ta1.jpg',
+    imageSecond: './images/ta1.1.jpg',
+    imageThird: './images/ta1.2.jpg',
+    stock: 36,
+    type: 'ballerinas',
+    rating: 7.5,
+    price: 26,
+    sex: 'female'
+  },
+  {
+    id: 20,
+    brand: 'GINO ROSSI',
+    description: 'GINO ROSSI HEELS VALENTINA-V-252-15 Light Pink',
+    imageFirst: './images/gr1.jpg',
+    imageSecond: './images/gr1.1.jpg',
+    imageThird: './images/gr1.2.jpg',
+    stock: 17,
+    type: 'heels',
+    rating: 8,
+    price: 58,
+    sex: 'female'
+  },
+  {
+    id: 21,
+    brand: 'GUESS',
+    description: 'GUESS HEELS Gavi13 Carry Over FL7G13 PAT08 NATU',
+    imageFirst: './images/guess1.jpg',
+    imageSecond: './images/guess1.1.jpg',
+    imageThird: './images/guess1.2.jpg',
+    stock: 29,
+    type: 'heels',
+    rating: 8,
+    price: 127,
+    sex: 'female'
+  },
+  {
+    id: 22,
+    brand: 'JENNY FAIRY',
+    description: 'JENNY FAIRY BALLERINAS LCS220801-01 Lavender Rosa',
+    imageFirst: './images/jf2.jpg',
+    imageSecond: './images/jf2.1.jpg',
+    imageThird: './images/jf2.2.jpg',
+    stock: 43,
+    type: 'ballerinas',
+    rating: 6,
+    price: 18,
+    sex: 'female'
+  },
+  {
+    id: 23,
+    brand: 'GUESS',
+    description: 'GUESS HEELS Sydnie2 FL5DNI PEL03 PEACH',
+    imageFirst: './images/guess2.jpg',
+    imageSecond: './images/guess2.1.jpg',
+    imageThird: './images/guess2.2.jpg',
+    stock: 21,
+    type: 'heels',
+    rating: 7,
+    price: 116,
+    sex: 'female'
+  },
+  {
+    id: 24,
+    brand: 'JENNY FAIRY',
+    description: 'JENNY FAIRY SANDALS LS5866-05D Pink',
+    imageFirst: './images/jf3.jpg',
+    imageSecond: './images/jf3.1.jpg',
+    imageThird: './images/jf3.2.jpg',
+    stock: 28,
+    type: 'sandals',
+    rating: 7.5,
+    price: 37,
+    sex: 'female'
+  },
+  {
+    id: 25,
+    brand: 'GUESS',
+    description: 'GUESS SANDALS Morra3 FL5MR3 ESU03 BLACK',
+    imageFirst: './images/guess3.jpg',
+    imageSecond: './images/guess3.1.jpg',
+    imageThird: './images/guess3.2.jpg',
+    stock: 12,
+    type: 'sandals',
+    rating: 9,
+    price: 142,
+    sex: 'female'
+  },
+  {
+    id: 26,
+    brand: 'R. POLANSKI',
+    description: 'SANDALS BY R.POLANSKI 1666 Golden Crystal',
+    imageFirst: './images/rp2.jpg',
+    imageSecond: './images/rp2.1.jpg',
+    imageThird: './images/rp2.2.jpg',
+    stock: 21,
+    type: 'sandals',
+    rating: 8,
+    price: 52,
+    sex: 'female'
+  },
 ]
 
 export const idDetailsPage: IdDetailsPage = {
