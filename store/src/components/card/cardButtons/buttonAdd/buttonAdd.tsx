@@ -1,10 +1,9 @@
 import React from "react";
+import styles from './buttonAdd.module.css'
 
 export const ButtonAdd = () => {
-  const addItem = () => {
-    console.log('ddd');
-  }
+
   return (
-    <button onClick={addItem}>Add item</button>
+    <button className={styles.btn__add}>Add item</button>
   )
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import { PRODUCTS, idDetailsPage } from "../../../../constants/constants";
 import { Link } from 'react-router-dom';
+import styles from './buttonDetails.module.css'
 
 export const ButtonDetails = () => {
-  const clickB = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const showDetails = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     const target = e.currentTarget.parentNode as HTMLElement;
     const idCard: number = Number(target.getAttribute('id'));
@@ -16,7 +17,7 @@ export const ButtonDetails = () => {
   }
   return (
     <>
-      <button onClick={clickB}><Link to='/details'>Details</Link></button>
+      <button onClick={showDetails} className={styles.btn__details}><Link to='/details' className={styles.btn__span}>Details</Link></button>
     </>
   )
 }

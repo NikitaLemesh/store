@@ -48,6 +48,54 @@ export const PRODUCTS: Item[] = [
     type: 'shoes',
     rating:  9,
     price: 89
+  },
+  {
+    id: 4,
+    brand: 'converse',
+    description: 'TRAMPKI CONVERSE All Star Hi M9160 Black',
+    imageFirst: './images/cn1.jpg',
+    imageSecond: './images/cn1.1.jpg',
+    imageThird: './images/cn1.2.jpg',
+    stock: 42,
+    type: 'shoes',
+    rating:  7.5,
+    price: 72
+  },
+  {
+    id: 5,
+    brand: 'converse',
+    description: 'TRAMPKI CONVERSE All Star Ox M9696C Red',
+    imageFirst: './images/cn2.jpg',
+    imageSecond: './images/cn2.1.jpg',
+    imageThird: './images/cn2.2.jpg',
+    stock: 31,
+    type: 'shoes',
+    rating:  8,
+    price: 63
+  },
+  {
+    id: 6,
+    brand: 'REEBOK',
+    description: 'REEBOK SHOES Cl Legacy Az GX9347 Chalk/Forgrn/Clacob',
+    imageFirst: './images/re1.jpg',
+    imageSecond: './images/re1.1.jpg',
+    imageThird: './images/re1.2.jpg',
+    stock: 25,
+    type: 'shoes',
+    rating:  7,
+    price: 59
+  },
+  {
+    id: 7,
+    brand: 'REEBOK',
+    description: 'REEBOK SHOES Lifter PR III Shoes HR0439 White',
+    imageFirst: './images/re2.jpg',
+    imageSecond: './images/re2.1.jpg',
+    imageThird: './images/re2.2.jpg',
+    stock: 27,
+    type: 'shoes',
+    rating:  7,
+    price: 73
   }
 ]
 

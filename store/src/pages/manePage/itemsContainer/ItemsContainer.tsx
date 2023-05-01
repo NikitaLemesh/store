@@ -4,10 +4,10 @@ import { Card } from "../../../components/card/Card";
 
 export const ItemsContainer = () => {
   return (
-    <ul>
+    <div>
         {PRODUCTS.map((item): React.ReactNode => {
           return <Card card={item} />
         })}
-    </ul>
+    </div>
   )
 }

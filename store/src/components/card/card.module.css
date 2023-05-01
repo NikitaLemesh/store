@@ -1,7 +1,16 @@
 .card {
-    width: 160px;
-    height: 360px;
-    background-color: red;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+    border-radius: 7px;
     border: 1px solid green; 
+    padding: 10px;
+}
+
+.div__position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
 }
