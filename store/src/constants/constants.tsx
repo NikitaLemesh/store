@@ -12,7 +12,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 5.5,
     price: 60,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 1,
@@ -25,7 +25,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 6.5,
     price: 81,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 9.5,
     price: 95,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 9,
     price: 89,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 7.5,
     price: 72,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 8,
     price: 63,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 6,
@@ -90,7 +90,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 7,
     price: 59,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 7,
@@ -103,7 +103,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 7,
     price: 73,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 8,
@@ -116,7 +116,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 8,
     price: 85,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 9,
@@ -129,7 +129,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 7.5,
     price: 75,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 10,
@@ -142,7 +142,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 7,
     price: 67,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 11,
@@ -155,7 +155,7 @@ export const PRODUCTS: Item[] = [
     type: 'sport',
     rating: 6,
     price: 48,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 12,
@@ -168,7 +168,7 @@ export const PRODUCTS: Item[] = [
     type: 'boots',
     rating: 9,
     price: 112,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 13,
@@ -181,7 +181,7 @@ export const PRODUCTS: Item[] = [
     type: 'boots',
     rating: 8,
     price: 92,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 14,
@@ -194,7 +194,7 @@ export const PRODUCTS: Item[] = [
     type: 'boots',
     rating: 8.5,
     price: 106,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 15,
@@ -207,7 +207,7 @@ export const PRODUCTS: Item[] = [
     type: 'boots',
     rating: 7.5,
     price: 84,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 16,
@@ -220,7 +220,7 @@ export const PRODUCTS: Item[] = [
     type: 'boots',
     rating: 6.5,
     price: 46,
-    sex: 'male'
+    sex: 'male',
   },
   {
     id: 17,
@@ -233,7 +233,7 @@ export const PRODUCTS: Item[] = [
     type: 'ballerinas',
     rating: 7,
     price: 26,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 18,
@@ -246,7 +246,7 @@ export const PRODUCTS: Item[] = [
     type: 'ballerinas',
     rating: 6.5,
     price: 31,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 19,
@@ -259,7 +259,7 @@ export const PRODUCTS: Item[] = [
     type: 'ballerinas',
     rating: 7.5,
     price: 26,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 20,
@@ -272,7 +272,7 @@ export const PRODUCTS: Item[] = [
     type: 'heels',
     rating: 8,
     price: 58,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 21,
@@ -285,7 +285,7 @@ export const PRODUCTS: Item[] = [
     type: 'heels',
     rating: 8,
     price: 127,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 22,
@@ -298,7 +298,7 @@ export const PRODUCTS: Item[] = [
     type: 'ballerinas',
     rating: 6,
     price: 18,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 23,
@@ -311,7 +311,7 @@ export const PRODUCTS: Item[] = [
     type: 'heels',
     rating: 7,
     price: 116,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 24,
@@ -324,7 +324,7 @@ export const PRODUCTS: Item[] = [
     type: 'sandals',
     rating: 7.5,
     price: 37,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 25,
@@ -337,7 +337,7 @@ export const PRODUCTS: Item[] = [
     type: 'sandals',
     rating: 9,
     price: 142,
-    sex: 'female'
+    sex: 'female',
   },
   {
     id: 26,
@@ -350,7 +350,7 @@ export const PRODUCTS: Item[] = [
     type: 'sandals',
     rating: 8,
     price: 52,
-    sex: 'female'
+    sex: 'female',
   },
 ]
 

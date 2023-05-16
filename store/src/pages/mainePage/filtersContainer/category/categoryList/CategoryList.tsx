@@ -1,5 +1,6 @@
 import React from 'react';
 import { PRODUCTS } from '../../../../../constants/constants';
+
 interface CategoryItem {
     [key: string]: number;
   }
@@ -16,7 +17,9 @@ const findCategory = (): CategoryItem => {
   return arrayCategory;
 }
 export const CategoryList = () => {
-    findCategory();
+  const cli = () => {
+    console.log('fff');
+  }
   return (
     <fieldset>
         <legend>fdsfsdf</legend>
@@ -24,7 +27,7 @@ export const CategoryList = () => {
            return (
             <>
               <div>
-                <input type='checkbox' id={item[0]} name={item[0]} />
+                <input type='checkbox' id={item[0]} name={item[0]} onChange={cli}/>
                 <label htmlFor={item[0]}>{item[0]}</label>
               </div>
               <p>{item[1]}</p>
